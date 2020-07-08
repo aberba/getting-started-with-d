@@ -63,3 +63,5 @@ In fact, nearly everywhere Java is suitable, D could replace it, bringing in mor
 
 Being targeted at 32 bit and 64 bit machines, D is not designed for embedded development on small devices. However, with the advent of Android and iOS smartphones which embed powerful CPUs and large amounts of RAM, D may be suitable for such development. The GCC and LLVM compiler backends being able to target these devices, the community is making progress.
 
+[ref](https://stackoverflow.com/questions/1207958/getting-embedded-with-d-the-programming-language)
+
