@@ -41,6 +41,7 @@ D has a high degree of versatility as a language - it does have a sweet spot in 
 ## [WIP] [Game development](/games.md)
 
 Resources for game developers
+[YouTube channel by Ki Rill](https://www.youtube.com/playlist?list=PLgM-lc_kSqFQPF0UXgmFZpZalqcrSofe-) on beginner game development
 
 ## [ ] [Writing scripts](#)
 
