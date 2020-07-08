@@ -23,6 +23,8 @@ I started this as a [post in the D forums to collect some community feedback](ht
 ## [ ] [General Overview]()
 The D programming language general purpose programming language that compiles to native code. You'll find D to be familiar but modern language with a simple C-like syntax. For these reasons D makes for a good language choice for both performance code and application development.
 
+[snippet] Walter, Andrei and the D community work to make D a practical language that combines native code efficiency and control with the modeling power, safety, and productivity found in high-level languages and those that stick strictly to a single paradigm. If you enjoy languages D is interesting in the way it combines many paradigms in a C-like syntax, and yet D is also a language used in production at scale in industry and academe. 
+
 > [Many] of D's improvements appear to be small, but the aggregate is large enough that once you write a project
 in D, you'll find it pretty hard to go back to another language - **Walter Bright, Creator of D**
 
@@ -36,8 +38,21 @@ D has a high degree of versatility as a language - it does have a sweet spot in 
 
 ## [ ] [Develpment tools and resources]()
 
-## [WIP] [Game Development](/games.md)
+## [WIP] [Game development](/games.md)
+
 Resources for game developers
+
+## [ ] [Writing scripts()
+
+Since D provides type inference, high-level constructs, and fast compile-time it is a great language for writing scripts. The first line of the file is ignored if it begins with #! ('shebang') and combining this with rdmd which handles dependency resolution, D becomes a leader in native-code scripting languages.
+
+```d
+ #!/usr/bin/env rdmd
+void main() {
+    import std.stdio : writeln;
+    writeln("Hello, World!");
+}
+```
 
 ## [ ] [Desktops Development]()
 In fact, nearly everywhere Java is suitable, D could replace it, bringing in more expressive power, better performance and better memory management. Although its current libraries are nowhere near as extensive as the Java libraries, most fundamental bricks are already here, and D has native interfacing to both C and C++, with library solutions for other languages such as Python,R and Lua. You may want to have a look at Phobos and Deimos libraries, as well as third-party libraries to make your own opinion on that matter. A very nice port of Java's SWT library has been created under the name DWT (with older but more complete documentation available at the legacy dsource site). There are also bindings for GTK, and a cross-platform idiomatic D GUI. 
