@@ -8,3 +8,18 @@ Resources for game developers
 > According to success of Unity and my experience working with it having GC is actually great for game development but it is a no go for many core engine functionalities.
 
 > Both the UE4 and Unity game engines use GC. Additionally, AAA games built with UE4 have shipped on consoles. UE4's GC certainly has issues (among other things), but you can still ship a game with it.
+
+> D used to have a slogan with 3 pillars: Modeling power, modern convenience, and native efficiency.
+
+
+I'm not even going to reference just game engines I'm showing you real AAA games. Quantum Break https://www.youtube.com/watch?v=7YjLW7anNfc
+
+Using D Alongside a Game Engine https://dconf.org/2013/talks/evans_1.html
+
+Solus Linux Creator Ikey Doherty Enters the Game Dev Business With a New Open Source Game Engine
+
+Atrium - 3D game written in D https://forum.dlang.org/thread/n1hqe5$1n24$1@digitalmars.com
+
+You could have chosen any other argument but when I comes to games, D's powerful interface with C/C++ (which is a must for games) and its own powerful generics and code generation capability makes Rust a none option. https://itsfoss.com/ikey-doherty-serpent-interview/
+
+And those are just the few I know.

@@ -41,25 +41,27 @@ Walter Bright (the creator), Andrei Alexandrescu (co-creator) and the D communit
 > Many of D's improvements appear to be small, but the aggregate is large enough that once you write a project
 > in D, you'll find it pretty hard to go back to another language ― **Walter Bright, Creator of D**
 
-> I think where D really excels is with the combination of Phobos and the C/C++ bindings. The greatly-reduced number of functions I was writing was wonderful as D seemed to have everything. Combine that with some really good cross-compatibility with what are essentially the two biggest languages is the cherry on top. D can do anything C or C++ can do, only with greater ease. ― **Anonymous user**
+> I think where D really excels is with the combination of Phobos [, the standard library] and the [interface with other languages]. The greatly-reduced number of functions I was writing was wonderful as D seemed to have everything. Combine that with some really good cross-compatibility ... is the cherry on top. D can do anything [other languages] can do, only with greater ease. ― **Anonymous user**
 
-> The key with D is that it's not really supposed to be another lower-level language in the region of C++. It's much higher-level than that, but at the same time doesn't go as far up as your dotnet and JVM stuff to the point of bloat and sluggishness. It hits a sweet spot in the middle of easy use and great performance. It's not the best at either, but it's definitely good at both. ― **Anonymous user**
+> The key with D is that it's not really supposed to be another lower-level language ... It's much higher-level than that, but at the same time doesn't go as far up ... to the point of bloat and sluggishness. It hits a sweet spot in the middle of easy use and great performance. It's not the best at either, but it's definitely good at both. ― **Anonymous user**
 
 > D has moved well ahead of
 > any other language in its abilities to support and integrate multiple paradigms like imperative, OOP, and
 > generic programming. - **Walter Bright, Creator of D**
 
-> D used to have a slogan with 3 pillars: Modeling power, modern convenience, and native efficiency.
-
 [ref](https://wiki.dlang.org/Why_program_in_D)
 
-## [ ][develpment tools and resources](#)
-
-## [Game Development](/games.md)
+## [Development Tools](#)
 
 ...
 
-## [Scripts and Automation](#)
+## Application Development
+
+...
+
+[Learn more...](/apps.md)
+
+## Scripts and Automation
 
 Since D provides type inference, high-level constructs, and fast compile-time it is a great language for writing scripts. The first line of the file is ignored if it begins with #! ('shebang') and combining this with rdmd which handles dependency resolution, D becomes a leader in native-code scripting languages.
 
@@ -71,12 +73,12 @@ void main() {
 }
 ```
 
-## [General Application Development](/apps.md)
-
-...
+[Learn more...](#)
 
 ## [Embedded Systems Programming](#)
 
 Being targeted at 32 bit and 64 bit machines, D is not designed for embedded development on small devices. However, with the advent of Android and iOS smartphones which embed powerful CPUs and large amounts of RAM, D may be suitable for such development. The GCC and LLVM compiler backends being able to target these devices, the community is making progress.
 
 [ref](https://stackoverflow.com/questions/1207958/getting-embedded-with-d-the-programming-language)
+
+[Learn more...](#)
